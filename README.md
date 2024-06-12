@@ -25,7 +25,8 @@ Verify that clicking the article thumbnail opens the overlay.
 ##### Steps:
 1. Navigate to the product listing page.
 2. Click on the product thumbnail.
-##### Expected Result: The overlay should open, displaying the product details.
+##### Expected Result: 
+The overlay should open, displaying the product details.
 #### Test Case 2: Overlay Content Display
 ##### Objective: 
 Ensure the overlay displays all required information.
@@ -33,7 +34,8 @@ Ensure the overlay displays all required information.
 1. Open the overlay by clicking the product thumbnail.
 2. Verify that the overlay shows the product pictures, name, available colors, sizes, and
 prices.
-• Expected Result: All specified elements should be visible in the overlay.
+##### Expected Result: 
+All specified elements should be visible in the overlay.
 #### Test Case 3: Tab Section Functionality
 ##### Objective: 
 Confirm that the tab section works correctly.
@@ -42,33 +44,42 @@ Confirm that the tab section works correctly.
 2. Click on each tab (Product details, Product fit, Material and care instructions,
 Sustainability).
 3. Verify that the content updates according to the selected tab.
-• Expected Result: Content should change appropriately with each tab selection.
+##### Expected Result: 
+Content should change appropriately with each tab selection.
 #### Test Case 4: Sticky Footer Behavior
-• Objective: Ensure the sticky footer functions correctly.
-• Steps:
+##### Objective: 
+Ensure the sticky footer functions correctly.
+##### Steps:
 1. Open the overlay.
 2. Scroll through the overlay content.
-• Expected Result: The footer should remain at the bottom of the overlay, displaying the
+##### Expected Result: 
+The footer should remain at the bottom of the overlay, displaying the
 article name and call-to-action button.
 #### Test Case 5: Color and Size Interactivity
-• Objective: Verify color and size selection interactivity.
-• Steps:
+##### Objective: 
+Verify color and size selection interactivity.
+##### Steps:
 1. Open the overlay.
 2. Select different colors and verify the slideshow images update.
 3. Select different sizes and verify availability updates.
-• Expected Result: The images and sizes should update correctly based on the selected color.
+##### Expected Result: 
+The images and sizes should update correctly based on the selected color.
 #### Test Case 6: Responsive Layout Verification
-• Objective: Test the overlay's responsiveness across various devices.
-• Steps:
+##### Objective: 
+Test the overlay's responsiveness across various devices.
+##### Steps:
 1. Open the website on different devices (mobile, tablet, desktop).
 2. Open the overlay and verify its layout and functionality.
-• Expected Result: The overlay should be responsive and functional across all devices.
+##### Expected Result: 
+The overlay should be responsive and functional across all devices.
 #### Test Case 7: Navigation and Interactivity
-• Objective: Ensure the overlay's navigation and interactivity are user-friendly. 
-• Steps:
+##### Objective: 
+Ensure the overlay's navigation and interactivity are user-friendly. 
+##### Steps:
 1. Open the overlay.
 2. Interact with all clickable elements (tabs, buttons, color selectors).
-• Expected Result: All interactive elements should be responsive and intuitive to use.
+##### Expected Result: 
+All interactive elements should be responsive and intuitive to use.
 ### 5. Test Environment • 
 Browsers:
 - Google Chrome (latest version)
