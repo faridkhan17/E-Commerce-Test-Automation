@@ -20,21 +20,24 @@ sustainability).
 • Responsive design across different devices and screen sizes.
 ### 4. Test Cases
 #### Test Case 1: Thumbnail Click
-• Objective: Verify that clicking the article thumbnail opens the overlay.
-Steps:
+##### Objective: 
+Verify that clicking the article thumbnail opens the overlay.
+##### Steps:
 1. Navigate to the product listing page.
 2. Click on the product thumbnail.
-• Expected Result: The overlay should open, displaying the product details.
+##### Expected Result: The overlay should open, displaying the product details.
 #### Test Case 2: Overlay Content Display
-• Objective: Ensure the overlay displays all required information.
-Steps:
+##### Objective: 
+Ensure the overlay displays all required information.
+##### Steps:
 1. Open the overlay by clicking the product thumbnail.
 2. Verify that the overlay shows the product pictures, name, available colors, sizes, and
 prices.
 • Expected Result: All specified elements should be visible in the overlay.
 #### Test Case 3: Tab Section Functionality
- • Objective: Confirm that the tab section works correctly.
-• Steps:
+##### Objective: 
+Confirm that the tab section works correctly.
+##### Steps:
 1. Open the overlay.
 2. Click on each tab (Product details, Product fit, Material and care instructions,
 Sustainability).
