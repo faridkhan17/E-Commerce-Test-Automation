@@ -139,7 +139,7 @@ Only a few tests have been automated for interview purposes.
 npm install -g @playwright/test
 ##
 - Install Dependencies: Make sure that all project dependencies are installed. Navigate to the /challenge/tests folder and run:\ 
- 
+## 
 npm install
 ##
 - Start Application: Ensure that the application is running on http://localhost:8080/.
@@ -161,7 +161,7 @@ This command will run the tests in headed mode, allowing you to see the browser 
 Integrate automated tests into the CI/CD pipeline for continuous validation.
  
 ### Observations:
-- If automated tests fail, it may be due to random data generation in the application. This can be improved by either adding test data to the application or modifying the test cases accordingly.\
-- Sometimes, clicking on the thumbnail for a white shirt opens a different shirt. This behavior can be improved.\
-- The selection of shirt colors is also inconsistent. Clicking on one color may open a different color in the picture.\
-- The footer in the overlay is not sticky in all tabs, such as 'MATERIAL & CARE INSTRUCTIONS'.\
+- If automated tests fail, it may be due to random data generation in the application. This can be improved by either adding test data to the application or modifying the test cases accordingly.
+- Sometimes, clicking on the thumbnail for a white shirt opens a different shirt. This behavior can be improved.
+- The selection of shirt colors is also inconsistent. Clicking on one color may open a different color in the picture.
+- The footer in the overlay is not sticky in all tabs, such as 'MATERIAL & CARE INSTRUCTIONS'.
