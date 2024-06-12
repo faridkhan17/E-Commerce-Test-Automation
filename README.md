@@ -81,21 +81,21 @@ Ensure the overlay's navigation and interactivity are user-friendly.
 ##### Expected Result: 
 All interactive elements should be responsive and intuitive to use.
 ### 5. Test Environment • 
-Browsers:
+##### Browsers:
 - Google Chrome (latest version)
 - Mozilla Firefox (latest version)
 - Safari (latest version)
 - Microsoft Edge (latest version)
-• Devices:
+##### Devices:
 - Mobile: iPhone (latest versions), Android phones (various models and screen sizes)
 - Tablet: iPad (latest versions), Android tablets
 - Desktop: Windows PC (various resolutions), MacBook (various resolutions)
-• Operating Systems:
+##### Operating Systems:
 - Windows 10/11
 - macOS (latest version)
 - iOS (latest version)
 - Android (latest version)
-• Tools:
+##### Tools:
 - Playwright for automation
 ### 6. Quality Measures 
 Code Review:
