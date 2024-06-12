@@ -131,11 +131,13 @@ issues encountered.
 - Review feedback from stakeholders and incorporate it into the testing process.
 - Ensure all issues are addressed before the final release.
 ### 10. Automation
-Please find the automation part at /challenge/tests. This file contains sample automated tests that can be extended. \
-Only a few tests have been automated for interview purposes.\
+Please find the automation part at /challenge/tests. This file contains sample automated tests that can be extended. 
+Only a few tests have been automated for interview purposes.
+##
 - Install Playwright: Before running the tests, ensure that you have Playwright installed. You can install it globally using npm: \
  
-npm install -g @playwright/test\
+npm install -g @playwright/test
+##
 - Install Dependencies: Make sure that all project dependencies are installed. Navigate to the /challenge/tests folder and run:\ 
  
 npm install\
