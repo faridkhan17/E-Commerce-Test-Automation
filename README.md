@@ -110,15 +110,16 @@ All interactive elements should be responsive and intuitive to use.
 - Use Playwright’s capabilities to simulate different devices and browsers, ensuring broad test coverage.
 - Integrate automated tests into the CI/CD pipeline to ensure they run on every code commit and deployment.
 ##### Performance Testing:
-Perform performance profiling of the overlay to ensure it loads quickly and efficiently. Test the performance impact of the overlay on the overall page load time.
-Ensure the overlay's performance is consistent across different devices.
+- Perform performance profiling of the overlay to ensure it loads quickly and efficiently.
+- Test the performance impact of the overlay on the overall page load time.
+- Ensure the overlay's performance is consistent across different devices.
 ### 7. Test Execution
-1.Initial Manual Testing:
-◦ Perform manual testing based on the outlined test cases.
-◦ Document any defects or deviations from expected behavior.
-2.Automated Testing:
-◦ Develop and execute automated tests for all functional and responsive test cases.
-◦ Integrate automated tests into the CI/CD pipeline for continuous validation.
+##### Initial Manual Testing:
+- Perform manual testing based on the outlined test cases.
+- Document any defects or deviations from expected behavior.
+##### Automated Testing:
+- Develop and execute automated tests for all functional and responsive test cases.
+- Integrate automated tests into the CI/CD pipeline for continuous validation.
 ### 8. Documentation
 • Test Case Documentation: Provide detailed test cases with expected and actual results.
 • Defect Reports: Document all defects found, including steps to reproduce, severity, and
