@@ -66,18 +66,29 @@ article name and call-to-action button.
 1. Open the overlay.
 2. Interact with all clickable elements (tabs, buttons, color selectors).
 • Expected Result: All interactive elements should be responsive and intuitive to use.
-### 5. Test Environment • Browsers:
-◦ ◦ ◦ ◦
-Google Chrome (latest version) Mozilla Firefox (latest version) Safari (latest version) Microsoft Edge (latest version)
-
- • Devices:
-◦ ◦ ◦
+### 5. Test Environment • 
+Browsers:
+- Google Chrome (latest version)
+- Mozilla Firefox (latest version)
+- Safari (latest version)
+- Microsoft Edge (latest version)
+• Devices:
+- Mobile: iPhone (latest versions), Android phones (various models and screen sizes)
+- Tablet: iPad (latest versions), Android tablets
+- Desktop: Windows PC (various resolutions), MacBook (various resolutions)
 • Operating Systems:
-◦ ◦ ◦ ◦
-• Tools: ◦
-◦
-### 6. Quality Measures • Code Review:
-◦ ◦ ◦ ◦
+- Windows 10/11
+- macOS (latest version)
+- iOS (latest version)
+- Android (latest version)
+• Tools:
+- Playwright for automation
+### 6. Quality Measures 
+Code Review:
+- Conduct thorough code reviews for all changes related to the overlay feature.
+- Ensure that the code adheres to the project's coding standards and guidelines.
+- Verify that the code is modular, maintainable, and well-documented.
+- Identify potential bugs, performance issues, and security vulnerabilities.
 • Automated Testing:
 Develop comprehensive automated test scripts using Playwright to cover all functional and responsive test cases.
 Implement tests for all critical paths, including thumbnail click functionality, overlay content display, tab interactions, and color/size interactivity.
@@ -89,22 +100,12 @@ commit and deployment.
 Perform performance profiling of the overlay to ensure it loads quickly and efficiently. Test the performance impact of the overlay on the overall page load time.
 Ensure the overlay's performance is consistent across different devices.
 ### 7. Test Execution
-1.
-2.
-◦
-Mobile: iPhone (latest versions), Android phones (various models and screen sizes) Tablet: iPad (latest versions), Android tablets
-Desktop: Windows PC (various resolutions), MacBook (various resolutions)
-Windows 10/11
-macOS (latest version) iOS (latest version) Android (latest version)
-Playwright for automation BrowserStack for cross-browser testing
-Conduct thorough code reviews for all changes related to the overlay feature. Ensure that the code adheres to the project's coding standards and guidelines. Verify that the code is modular, maintainable, and well-documented.
-Identify potential bugs, performance issues, and security vulnerabilities.
-Initial Manual Testing:
+1.Initial Manual Testing:
 ◦ Perform manual testing based on the outlined test cases.
-◦ Document any defects or deviations from expected behavior. Automated Testing:
-Develop and execute automated tests for all functional and responsive test cases.
-
- ◦
+◦ Document any defects or deviations from expected behavior.
+2.Automated Testing:
+◦ Develop and execute automated tests for all functional and responsive test cases.
+◦ Integrate automated tests into the CI/CD pipeline for continuous validation.
 ### 8. Documentation
 • Test Case Documentation: Provide detailed test cases with expected and actual results.
 • Defect Reports: Document all defects found, including steps to reproduce, severity, and
