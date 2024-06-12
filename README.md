@@ -98,19 +98,18 @@ All interactive elements should be responsive and intuitive to use.
 ##### Tools:
 - Playwright for automation
 ### 6. Quality Measures 
-Code Review:
+##### Code Review:
 - Conduct thorough code reviews for all changes related to the overlay feature.
 - Ensure that the code adheres to the project's coding standards and guidelines.
 - Verify that the code is modular, maintainable, and well-documented.
 - Identify potential bugs, performance issues, and security vulnerabilities.
-• Automated Testing:
-Develop comprehensive automated test scripts using Playwright to cover all functional and responsive test cases.
-Implement tests for all critical paths, including thumbnail click functionality, overlay content display, tab interactions, and color/size interactivity.
-Set up automated regression tests to run on every build to detect any changes that might break existing functionality.
-Use Playwright’s capabilities to simulate different devices and browsers, ensuring broad test coverage.
-Integrate automated tests into the CI/CD pipeline to ensure they run on every code
-commit and deployment.
-• Performance Testing:
+##### Automated Testing:
+- Develop comprehensive automated test scripts using Playwright to cover all functional and responsive test cases.
+- Implement tests for all critical paths, including thumbnail click functionality, overlay content display, tab interactions, and color/size interactivity.
+- Set up automated regression tests to run on every build to detect any changes that might break existing functionality.
+- Use Playwright’s capabilities to simulate different devices and browsers, ensuring broad test coverage.
+- Integrate automated tests into the CI/CD pipeline to ensure they run on every code commit and deployment.
+##### Performance Testing:
 Perform performance profiling of the overlay to ensure it loads quickly and efficiently. Test the performance impact of the overlay on the overall page load time.
 Ensure the overlay's performance is consistent across different devices.
 ### 7. Test Execution
