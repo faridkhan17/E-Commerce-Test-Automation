@@ -140,17 +140,25 @@ npm install -g @playwright/test
 ##
 - Install Dependencies: Make sure that all project dependencies are installed. Navigate to the /challenge/tests folder and run:\ 
  
-npm install\
-- Start Application: Ensure that the application is running on http://localhost:8080/.\
-- Run Tests: Once the application is running and dependencies are installed, execute the following command: \
+npm install
+##
+- Start Application: Ensure that the application is running on http://localhost:8080/.
+  
+- Run Tests: Once the application is running and dependencies are installed, execute the following command:
+##
  
-npx playwright test --headed \
+npx playwright test --headed
+##
    
-This command will run the tests in headed mode, allowing you to see the browser window while the tests are running.\
- If you want to run the tests in headless mode, you can remove the --headed flag.\
-- View Test Results: After the tests have finished running, you should see the test results in the terminal/console.\
--  Additionally, Playwright will generate a report with detailed test results in the test-results directory.\
-Integrate automated tests into the CI/CD pipeline for continuous validation.\
+This command will run the tests in headed mode, allowing you to see the browser window while the tests are running.
+
+ If you want to run the tests in headless mode, you can remove the --headed flag.
+ 
+- View Test Results: After the tests have finished running, you should see the test results in the terminal/console.
+ 
+-  Additionally, Playwright will generate a report with detailed test results in the test-results directory.
+  
+Integrate automated tests into the CI/CD pipeline for continuous validation.
  
 ### Observations:
 - If automated tests fail, it may be due to random data generation in the application. This can be improved by either adding test data to the application or modifying the test cases accordingly.\
