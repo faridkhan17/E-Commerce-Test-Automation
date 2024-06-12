@@ -121,34 +121,34 @@ All interactive elements should be responsive and intuitive to use.
 - Develop and execute automated tests for all functional and responsive test cases.
 - Integrate automated tests into the CI/CD pipeline for continuous validation.
 ### 8. Documentation
-• Test Case Documentation: Provide detailed test cases with expected and actual results.
-• Defect Reports: Document all defects found, including steps to reproduce, severity, and
+- Test Case Documentation: Provide detailed test cases with expected and actual results.
+- Defect Reports: Document all defects found, including steps to reproduce, severity, and
 status.
-• Test Summary Report: Summarize testing activities, results, quality measures, and any
+- Test Summary Report: Summarize testing activities, results, quality measures, and any
 issues encountered.
 ### 9. Feedback Loop
-• Regularly communicate with the product owner and development team.
-• Review feedback from stakeholders and incorporate it into the testing process.
-• Ensure all issues are addressed before the final release.
+- Regularly communicate with the product owner and development team.
+- Review feedback from stakeholders and incorporate it into the testing process.
+- Ensure all issues are addressed before the final release.
 ### 10. Automation
-Please find the automation part at /challenge/tests in the zip file. This file contains sample automated tests that can be extended. Only a few tests have been automated for interview purposes.
-1. Install Playwright: Before running the tests, ensure that you have Playwright installed. You can install it globally using npm: 
+Please find the automation part at /challenge/tests. This file contains sample automated tests that can be extended. Only a few tests have been automated for interview purposes.
+- Install Playwright: Before running the tests, ensure that you have Playwright installed. You can install it globally using npm: 
  
 npm install -g @playwright/test
-2. Install Dependencies: Make sure that all project dependencies are installed. Navigate to the /challenge/tests folder and run: 
+- Install Dependencies: Make sure that all project dependencies are installed. Navigate to the /challenge/tests folder and run: 
  
 npm install
-3. Start Application: Ensure that the application is running on http://localhost:8080/.
-4. Run Tests: Once the application is running and dependencies are installed, execute the following command: 
+- Start Application: Ensure that the application is running on http://localhost:8080/.
+- Run Tests: Once the application is running and dependencies are installed, execute the following command: 
  
 npx playwright test --headed 
    
 This command will run the tests in headed mode, allowing you to see the browser window while the tests are running. If you want to run the tests in headless mode, you can remove the --headed flag.
-5. View Test Results: After the tests have finished running, you should see the test results in the terminal/console. Additionally, Playwright will generate a report with detailed test results in the test-results directory.
+- View Test Results: After the tests have finished running, you should see the test results in the terminal/console. Additionally, Playwright will generate a report with detailed test results in the test-results directory.
 Integrate automated tests into the CI/CD pipeline for continuous validation.
  
 ### Observations:
-• If automated tests fail, it may be due to random data generation in the application. This can be improved by either adding test data to the application or modifying the test cases accordingly.
-• Sometimes, clicking on the thumbnail for a white shirt opens a different shirt. This behavior can be improved.
-• The selection of shirt colors is also inconsistent. Clicking on one color may open a different color in the picture.
-• The footer in the overlay is not sticky in all tabs, such as 'MATERIAL & CARE INSTRUCTIONS'.
+- If automated tests fail, it may be due to random data generation in the application. This can be improved by either adding test data to the application or modifying the test cases accordingly.
+- Sometimes, clicking on the thumbnail for a white shirt opens a different shirt. This behavior can be improved.
+- The selection of shirt colors is also inconsistent. Clicking on one color may open a different color in the picture.
+- The footer in the overlay is not sticky in all tabs, such as 'MATERIAL & CARE INSTRUCTIONS'.
