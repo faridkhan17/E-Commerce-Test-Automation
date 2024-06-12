@@ -21,13 +21,13 @@ sustainability).
 ### 4. Test Cases
 #### Test Case 1: Thumbnail Click
 • Objective: Verify that clicking the article thumbnail opens the overlay.
-• Steps:
+Steps:
 1. Navigate to the product listing page.
 2. Click on the product thumbnail.
 • Expected Result: The overlay should open, displaying the product details.
 #### Test Case 2: Overlay Content Display
 • Objective: Ensure the overlay displays all required information.
-• Steps:
+Steps:
 1. Open the overlay by clicking the product thumbnail.
 2. Verify that the overlay shows the product pictures, name, available colors, sizes, and
 prices.
