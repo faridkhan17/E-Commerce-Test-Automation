@@ -1,5 +1,4 @@
-# soliver
-
+Test Automation for E-Commerce
 ## Test Plan
 ### 1. Introduction
 This test plan aims to ensure the article details overlay in the s.Oliver E-Shop meets the required functionality and design specifications. The objective is to verify that the overlay displays necessary information, functions correctly, and is responsive across all screen sizes. This document outlines the test cases, quality measures, documentation process, and the automation strategy for regression testing.
